@@ -1,4 +1,4 @@
-'''meramaid
+```mermaid
 graph TD
     User["사용자"] -->|실행| App("App (app.py)")
     
@@ -19,4 +19,4 @@ graph TD
         WSServer -->|JSON 데이터 전송| OverlayWin["오버레이 창<br/>(pywebview)"]
         OverlayWin -->|HTML/JS 렌더링| Screen["화면 출력"]
     end
-    '''
+```
